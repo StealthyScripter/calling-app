@@ -3,7 +3,7 @@ import NetInfo from '@react-native-community/netinfo';
 import { FirebaseService } from '../firebase/config';
 import AuthService from './AuthService';
 
-const API_BASE_URL = 'http://your-backend-url.com/api'; // Replace with your backend URL
+const API_BASE_URL = 'http://localhost:3000/api'; // Replace with your backend URL
 
 export interface CallSession {
   callId: string;
